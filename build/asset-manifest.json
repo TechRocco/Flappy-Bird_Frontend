@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9f3c28f.css",
+    "main.js": "/static/js/main.f681fb5c.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/bronze-medal.png": "/static/media/bronze-medal.703a2d9c9d299c656642.png",
+    "static/media/gold-medal.png": "/static/media/gold-medal.cf4ca7b7bf274cc9c576.png",
+    "static/media/silver-medal.png": "/static/media/silver-medal.90ebf454c37f1bfc390b.png",
+    "static/media/point.mp3": "/static/media/point.b34a66dfcb3f366dbe02.mp3",
+    "static/media/gameover.mp3": "/static/media/gameover.c01b24bbbc4fb9ac2a69.mp3",
+    "static/media/fly.mp3": "/static/media/fly.e734c795036a15108437.mp3",
+    "index.html": "/index.html",
+    "main.e9f3c28f.css.map": "/static/css/main.e9f3c28f.css.map",
+    "main.f681fb5c.js.map": "/static/js/main.f681fb5c.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9f3c28f.css",
+    "static/js/main.f681fb5c.js"
+  ]
+}
