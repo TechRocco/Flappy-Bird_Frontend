@@ -14,7 +14,7 @@ const BIRD_HEIGHT = 28;
 const BIRD_WIDTH = 33;
 const WALL_HEIGHT = 600;
 const WALL_WIDTH = 400;
-const GRAVITY = 8;
+const GRAVITY = 6;
 const OBJ_WIDTH = 52;
 const INITIAL_OBJ_SPEED = 6;
 const INITIAL_OBJ_GAP = 200;
@@ -82,11 +82,11 @@ function GameScreen() {
   // Adjust speed and gap after certain score thresholds
   useEffect(() => {
     if (score >= 7 && score < 12) {
-      setObjSpeed(8);  // Speed increases after score reaches 10
-      setObjGap(150);   // Gap decreases after score reaches 10
+      setObjSpeed(8);  // Speed increases after score --
+      setObjGap(150);   // Gap decreases after score --
     } else if (score >= 12) {
-      setObjSpeed(10); // Speed increases further after score reaches 20
-      setObjGap(100);   // Gap decreases further after score reaches 20
+      setObjSpeed(10); // Speed increases further after score reaches --
+      setObjGap(100);   // Gap decreases further after score reaches --
     }
   }, [score]);
 
