@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>404 - Not Found</title>
     <script type="text/javascript">
-      // Redirect all 404 errors back to index.html so React Router can handle them
-      window.location.replace('/');
+      // Get the current path and reload the page with the same path
+      const currentPath = window.location.pathname;
+      window.location.replace(currentPath);
     </script>
   </head>
   <body>
