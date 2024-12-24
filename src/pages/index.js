@@ -22,15 +22,7 @@ let Pages = () => {
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/Leaderboard" element={<Leaderboard />} />
                 <Route path="/gameover" element={<GameOver />} />
-
-
-                {navigator.onLine ? (
-                    <Route path="/game" element={<PrivateRoute />}>
-                        <Route path="/game" element={<GameScreen />} />
-                    </Route>
-                ) : (
-                    <Route path="/game" element={<GameScreen />} />
-                )}
+                <Route path="/game" element={<GameScreen />} />
 
                 {/* private routes */}
                 <Route path="/profile" element={<PrivateRoute />}>
